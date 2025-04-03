@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@danisafadinha - InstaHot</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">InstaHot</div>
+      <nav>
+        <a href="#">Início</a>
+        <a href="#">Pesquisar Perfil</a>
+      </nav>
+    </header>
+
+    <div class="banner"></div>
+
+    <div class="profile">
+      <img
+        src="https://randomuser.me/api/portraits/women/79.jpg"
+        class="avatar"
+        alt="@danisafadinha"
+      />
+      <div class="name">@danisafadinha</div>
+      <div class="bio">
+        Bem-vindo ao meu universo! Aqui você vai encontrar ensaios exclusivos,
+        bastidores e conteúdos especiais feitos com muito carinho só pra você.
+        Assine e tenha acesso completo!
+      </div>
+      <div class="tags">#sensual #bastidores #exclusivo #hot</div>
+      <div class="stats">
+        <div><strong>52</strong><br />posts</div>
+        <div><strong>2.3k</strong><br />seguidores</div>
+        <div><strong>18.7k</strong><br />curtidas</div>
+      </div>
+      <button class="subscribe-btn" onclick="openPaymentModal()">
+        Assinar por R$ 19,90/mês
+      </button>
+    </div>
+
+    <div class="section">
+      <h2>Prévias gratuitas</h2>
+      <div class="highlights">
+        <div class="highlight" onclick="openModal('preview1')">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1661629259850-9a893425f1f5?q=80&w=3200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Imagem Aleatória de Mulher de Biquíni"
+          />
+
+          <span>Bastidores</span>
+        </div>
+        <div class="highlight" onclick="openModal('preview2')">
+          <img
+            src="https://images.unsplash.com/photo-1582639590011-f5a8416d1101?q=80&w=2862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Imagem Aleatória"
+          />
+
+          <span>Ensaio</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Conteúdo exclusivo</h2>
+      <div class="grid" id="lockedContent">
+        <!-- Conteúdo pago aparecerá aqui após assinatura -->
+      </div>
+    </div>
+
+    <!-- Modal de mídia -->
+    <div id="modal" class="modal">
+      <div class="modal-content" id="modalContent"></div>
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+    </div>
+
+    <!-- Modal de pagamento -->
+    <div id="paymentModal" class="modal">
+      <div class="modal-content">
+        <h2>Confirmar Assinatura</h2>
+        <p>Deseja pagar com seu cartão cadastrado?</p>
+        <button class="pay-btn" onclick="confirmPayment()">
+          Sim, confirmar pagamento
+        </button>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
