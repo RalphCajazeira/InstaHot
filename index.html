@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  >
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,17 +16,16 @@
       </nav>
     </header>
 
-    <!-- Imagem de capa -->
+    <!-- Capa e avatar -->
     <div class="banner"></div>
 
-    <!-- Informações do perfil -->
     <div class="profile-container">
       <img src="" class="avatar" alt="avatar da criadora" />
 
       <div class="profile-info">
         <div class="username">
-          <h2 class="name"></h2>
-          <p class="handle"></p>
+          <h2 class="name">Nome</h2>
+          <p class="handle">@usuario</p>
         </div>
 
         <div class="profile-actions"></div>
@@ -39,19 +37,26 @@
         <div class="stats"></div>
 
         <div class="subscribe-options">
-          <button class="subscribe-btn" onclick="openPaymentModal()"></button>
-          <button class="subscribe-btn secondary">Gratuito</button>
+          <button class="subscribe-btn" onclick="openPaymentModal()">
+            Assinar
+          </button>
+          <button
+            class="subscribe-btn secondary"
+            onclick="openPreviewSlideshow()"
+          >
+            Gratuito
+          </button>
         </div>
       </div>
     </div>
 
-    <!-- Prévias -->
+    <!-- Prévias estilo stories -->
     <div class="section">
       <h3>Prévias Gratuitas</h3>
       <div class="highlights" id="preview-destaques"></div>
     </div>
 
-    <!-- Seções -->
+    <!-- Seções principais -->
     <div class="section">
       <div class="main-tabs">
         <button class="main-tab-btn active" onclick="mostrarSecao('postagens')">
@@ -96,12 +101,31 @@
       </div>
     </div>
 
-    <!-- Modal geral -->
+    <!-- Modal genérico -->
     <div class="modal" id="modal">
       <div class="modal-content" id="modalContent"></div>
       <span class="close-btn" onclick="closeModal()">&times;</span>
     </div>
 
-    <script src="scripts.js"></script>
+    <div id="storyModal" class="">
+      <div class="story-content">
+        <div class="story-progress" id="storyProgress"></div>
+        <img id="storyImg" class="story-img" src="" alt="" />
+        <div class="story-nav">
+          <div id="prevArea" onclick="voltarStory()"></div>
+          <div id="nextArea" onclick="avancarStory()"></div>
+        </div>
+        <button class="story-exit" onclick="fecharStory()">✕</button>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="scripts/perfil.js"></script>
+    <script src="scripts/postagens.js"></script>
+    <script src="scripts/midia.js"></script>
+    <script src="scripts/modal.js"></script>
+    <script src="scripts/previas.js"></script>
+    <script src="scripts/stories.js"></script>
+    <script src="scripts/index.js"></script>
   </body>
 </html>

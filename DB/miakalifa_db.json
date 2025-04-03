@@ -82,13 +82,29 @@
   "previas": [
     {
       "id": "preview1",
-      "tipo": "imagem",
-      "src": "assets/images/miakalifa/01 (23).avif"
+      "titulo": "Preview #1",
+      "itens": [
+        "assets/images/miakalifa/01 (23).avif",
+        "assets/images/miakalifa/01 (24).avif",
+        "assets/images/miakalifa/01 (25).avif"
+      ]
     },
     {
       "id": "preview2",
-      "tipo": "imagem",
-      "src": "assets/images/miakalifa/01.avif"
+      "titulo": "Preview #2",
+      "itens": [
+        "assets/images/miakalifa/01.avif",
+        "assets/images/miakalifa/01 (2).avif"
+      ]
+    },
+    {
+      "id": "preview3",
+      "titulo": "Preview #3",
+      "itens": [
+        "assets/images/miakalifa/01 (3).avif",
+        "assets/images/miakalifa/01 (6).avif",
+        "assets/images/miakalifa/01 (8).avif"
+      ]
     }
   ]
 }
