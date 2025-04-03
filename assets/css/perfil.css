@@ -1,0 +1,123 @@
+.banner {
+    width: 100%;
+    height: 220px;
+    background: #ccc center/cover no-repeat;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -60px;
+    padding: 0 1rem;
+    position: relative;
+    z-index: 10;
+  
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid var(--white);
+      object-fit: cover;
+      background: var(--white);
+      margin-bottom: 1rem;
+      z-index: 10;
+    }
+  
+    .profile-info {
+      text-align: center;
+      max-width: 600px;
+  
+      .username {
+        h2 {
+          font-size: 1.5rem;
+          margin: 0;
+        }
+      }
+  
+      .handle {
+        color: var(--muted);
+        margin-top: 4px;
+        margin-bottom: 0.5rem;
+        font-size: 0.9rem;
+      }
+  
+      .profile-actions {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0.7rem 0;
+  
+        .action-btn {
+          background: #eee;
+          color: var(--text);
+          border: none;
+          padding: 0.5rem 1.2rem;
+          border-radius: var(--radius);
+          cursor: pointer;
+          font-size: 0.9rem;
+          transition: 0.2s;
+        }
+      }
+  
+      .bio {
+        font-size: 0.95rem;
+        margin: 0.8rem 0 0.3rem;
+        color: var(--text);
+      }
+  
+      .external-link {
+        color: var(--primary);
+        font-size: 0.9rem;
+        text-decoration: none;
+        display: inline-block;
+        margin-bottom: 1rem;
+      }
+  
+      .tags {
+        font-size: 0.85rem;
+        color: var(--muted);
+        margin: 0.5rem 0;
+      }
+  
+      .stats {
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+        margin: 1rem 0;
+        font-size: 0.9rem;
+  
+        div {
+          text-align: center;
+        }
+      }
+  
+      .subscribe-options {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 1.5rem;
+  
+        .subscribe-btn {
+          background: var(--accent);
+          color: var(--white);
+          border: none;
+          padding: 0.7rem 1.5rem;
+          border-radius: var(--radius);
+          font-size: 1rem;
+          font-weight: 600;
+          cursor: pointer;
+  
+          &.secondary {
+            background: #eee;
+            color: var(--text);
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,94 @@
+{
+  "perfil": {
+    "nome": "Mia Khalifa",
+    "usuario": "@miakalifa",
+    "bio": "Me manda um direct pra me ver daquele jeitinho que você sempre sonhou 🔥👀",
+    "tags": ["#hot", "#vip", "#mia", "#exclusive"],
+    "link": "https://instagram.com/miakhalifa",
+    "stats": {
+      "posts": 26,
+      "seguidores": "2.1M",
+      "curtidas": "12.3M"
+    },
+    "imagens": {
+      "capa": "assets/images/miakalifa/capa.avif",
+      "perfil": "assets/images/miakalifa/perfil.avif"
+    },
+    "assinatura": {
+      "mensal": "19.90",
+      "gratuito": true,
+      "botaoTexto": "Assinar por R$ 19,90/mês"
+    },
+    "acoes": ["💬 Mensagem", "🔗 Copiar Perfil", "⭐ Seguir"]
+  },
+  "postagens": [
+    {
+      "id": 1,
+      "data": "2025-04-03T02:30:00Z",
+      "texto": "Meus olhos dizem mais que mil palavras. Você consegue decifrar?",
+      "midia": "assets/images/miakalifa/01 (1).avif",
+      "tipo": "imagem",
+      "quantidade": 1,
+      "likes": 42,
+      "comentarios": [
+        { "user": "anjo21", "texto": "Linda demais 😍" },
+        { "user": "vipbr", "texto": "🔥🔥🔥" }
+      ]
+    },
+    {
+      "id": 2,
+      "data": "2025-04-03T01:10:00Z",
+      "texto": "Curtiram o último ensaio?",
+      "midia": "assets/images/miakalifa/01 (2).avif",
+      "tipo": "imagem",
+      "quantidade": 3,
+      "likes": 89,
+      "comentarios": [{ "user": "mariof", "texto": "Sensacional esse ensaio!" }]
+    },
+    {
+      "id": 3,
+      "data": "2025-04-02T18:20:00Z",
+      "texto": "Vídeo novo só pros assinantes 👀",
+      "midia": "assets/images/miakalifa/01 (3).avif",
+      "tipo": "video",
+      "duracao": "0:11",
+      "likes": 120,
+      "comentarios": [{ "user": "kaka", "texto": "Já assisti 3x 😳" }]
+    },
+    {
+      "id": 4,
+      "data": "2025-04-01T20:00:00Z",
+      "texto": "Top 5 posições favoritas... qual é a sua?",
+      "midia": "assets/images/miakalifa/01 (4).avif",
+      "tipo": "imagem",
+      "quantidade": 1,
+      "likes": 38,
+      "comentarios": []
+    },
+    {
+      "id": 5,
+      "data": "2025-03-30T16:40:00Z",
+      "texto": "Curtindo com minha amiga 🔥",
+      "midia": "assets/images/miakalifa/01 (20).avif",
+      "tipo": "imagem",
+      "quantidade": 1,
+      "participacao": ["@badaninha"],
+      "likes": 63,
+      "comentarios": [
+        { "user": "nandohot", "texto": "As duas juntas? Meu sonho 😍" }
+      ]
+    }
+  ],
+  "previas": [
+    {
+      "id": "preview1",
+      "tipo": "imagem",
+      "src": "assets/images/miakalifa/01 (23).avif"
+    },
+    {
+      "id": "preview2",
+      "tipo": "imagem",
+      "src": "assets/images/miakalifa/01.avif"
+    }
+  ]
+}
