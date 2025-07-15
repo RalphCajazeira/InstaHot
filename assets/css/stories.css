@@ -90,3 +90,20 @@
   padding: 5px 10px;
   border-radius: 10px;
 }
+
+#prevArea,
+#nextArea {
+  background: transparent;
+  outline: none;
+  border: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent; /* remove highlight no mobile */
+}
+
+#prevArea:focus,
+#nextArea:focus,
+#prevArea:active,
+#nextArea:active {
+  outline: none;
+  background: transparent;
+}
